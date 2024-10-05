@@ -1,0 +1,31 @@
+<svg
+    width="200"
+    height="200"
+    viewBox="0 0 200 200"
+    xmlns="http://www.w3.org/2000/svg"
+>
+    <!-- Background Circle -->
+    <circle cx="100" cy="100" r="100" fill="#1E90FF" /> <!-- Changed to DodgerBlue -->
+
+    <!-- TNS Letters -->
+    <text
+        x="50%"
+        y="50%"
+        dominant-baseline="middle"
+        text-anchor="middle"
+        font-family="Verdana, Geneva, sans-serif"
+        font-size="70"
+        fill="#FFD700" <!-- Changed to Gold -->
+        font-weight="bold"
+    >
+        TNS
+    </text>
+
+    <!-- Optional: Adding a Geometric Element -->
+    <polygon
+        points="100,20 120,80 180,80 130,120 150,180 100,140 50,180 70,120 20,80 80,80"
+        fill="none"
+        stroke="#FFD700" <!-- Changed to Gold -->
+        stroke-width="4"
+    />
+</svg>
